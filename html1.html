@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="sidebar">
+    <img src="myprof.jpg" alt="Avatar">
+    <h2>Christian Jeric Baluis</h2>
+    <h3>Portfolio</h3>
+    <nav>
+      <ul>
+        <ul>
+        <li><a href="#" onclick="showSection('portfolio')"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#" onclick="showSection('about')"><i class="fa fa-user"></i> About me</a></li>
+        <li><a href="#" onclick="showSection('contact')"><i class="fa fa-envelope"></i> Contact</a></li>
+         <li><a href="#" onclick="showSection('resume')"><i class="fa fa-file-text"></i> Resume</a></li>
+</ul>
+
+      </ul>
+    </nav>
+    <div class="socials">
+      <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      
+    </div>
+  </div>
+  
+  <div class="main">
+    <section id="portfolio" class="section" style="display: block;">
+      <h1>Skills</h1>
+      <div class="filter">
+       
+        
+      </div>
+      <div class="grid">
+        <div class="card"><img src="htmllogo.png"><p>HTML</p></div>
+        <div class="card"><img src="csspic.jpg"><p>CSS</p></div>
+        <div class="card"><img src="jslogo.png"><p>JavaScript</p></div>
+        <div class="card"><img src="javalogo.jpg"><p>Java</p></div>
+        <div class="card"><img src="csharp.png"><p>C#</p></div>
+        <div class="card"><img src="pythonlogo.jpg"><p>Python</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section" style="display: none;">
+      <h2>About Me</h2>
+      <p>I am an Information Technology student with a strong interest in software development and emerging</p>
+      <p>technologies. I enjoy learning how systems work and applying that knowledge to solve real-world problems.</p>
+      <p>My studies have helped me build a solid foundation in programming, databases, and computer networks. I</p>
+      <p>am particularly interested in mobile app development and artificial intelligence. I enjoy working on projects</p>
+      <p>that challenge me to think critically and creatively. As a student, I’m always eager to learn new skills and</p>
+      <p>improve through hands-on experience. My goal is to become a skilled and responsible IT professional who</p>
+      <p>can contribute meaningfully to the tech industry.</p>
+      <h5>Hobbies</h5>
+         <div class="card1"><img src="valorant.png"><p>Valorant</p></div>
+         <p>In my free time, I enjoy playing Valorant as a way to relax and sharpen my strategic thinking. It helps me stay</p>
+         <p>focused, think fast, and work well in a team. Gaming is more than just a hobby for me; it’s a fun way to learn</p>
+         <p>teamwork and decision-making under pressure.</p>
+
+         <div class="card2"><img src="mlbg.jpg"><p>Mobile Legends</p></div>
+         <p>I also enjoy playing Mobile Legends as a way to relax and challenge my tactical skills. It helps me</p>
+         <p>stay focused, react quickly, and cooperate effectively with teammates</p>
+
+
+
+      
+    </section>
+    <section id="resume" class="section" style="display: none;">
+  <h2>Resume</h2>
+  <p>You can view or download my resume here:</p>
+  <a href="" target="_blank">Download Resume (PDF)</a>
+</section>
+
+    <section id="contact" class="section" style="display: none;">
+      <h2>Contact</h2>
+      <p>Email: christianjeric03@gmail.com</p>
+      <p>Phone: +639561449761</p>
+    </section>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>

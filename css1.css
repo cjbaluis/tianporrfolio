@@ -1,0 +1,221 @@
+body, h5 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #778899;
+}
+h1 {
+    text-align: center;
+}
+
+.sidebar {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  background: #92A0AD;
+  padding: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.sidebar h3 {
+    text-align: center;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+.sidebar nav ul li a:hover {
+  color: white;
+  background-color: grey;
+  box-shadow: 0 0 10px grey, 0 0 20px grey;
+}
+
+.socials a {
+  margin-right: 10px;
+  color: black;
+}
+
+.main {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.filter button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.filter button.active {
+  background: black;
+  color: white;
+}
+
+.grid {
+   display: grid;
+   
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-items: center; 
+  align-items: start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.card {
+  background: #393838;
+  padding: 10px;
+  text-align: center;
+  width: 150px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border-radius: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card:hover {
+  transform: scale(1.20);
+}
+
+section {
+  margin-bottom: 80px;
+}
+#contact{
+  text-align: center;
+}
+#resume{
+  text-align: center;
+}
+.card1{
+  background: #d01313;
+  padding: 10px;
+  text-align: center;
+  width: 150px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border-radius: 25px;
+   margin-left: 1in;
+   margin-top: 50px;
+}
+.card1 :hover {
+  transform: scale(1.20);
+}
+.card1 img {
+  width: 100%;
+  height: auto;
+}
+#portfolio{
+  margin-left: 10px; 
+  padding: 20px;
+  background-image: url('programmingbg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 15px;
+  min-height: 120vh; 
+  box-sizing: border-box;
+}
+#about {
+  margin-left: 5px;
+  padding: 20px;
+  background: none;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 340px; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('valobg.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+
+#about * {
+  position: relative;
+  z-index: 1;
+}
+.card2{
+  background: #3a29d5;
+  padding: 10px;
+  text-align: center;
+  width: 150px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border-radius: 25px;
+   margin-left: 1in;
+   margin-top: 50px;
+}
+.card2 :hover {
+  transform: scale(1.20);
+}
+.card2 img {
+  width: 100%;
+  height: auto;
+}
+.popup-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  /* transition: opacity 0.4s ease; */
+  border-radius: 25px;
+}
+
+/* Image inside the popup */
+.popup-image img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+
+
